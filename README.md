@@ -88,3 +88,6 @@ Overall, the experiments demonstrate that synthetic data is useful for bootstrap
 - The model performs scene-level classification and does not localize individual workers  
 - False positives and false negatives present a tradeoff between safety and usability  
 
+---
+
+For dataset access details, see the `data/` directory.
