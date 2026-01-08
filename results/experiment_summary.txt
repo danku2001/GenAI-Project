@@ -1,0 +1,12 @@
+Experiment 1 – Synthetic Only
+Model trained only on synthetic data.
+Good performance on synthetic validation data.
+Poor generalization to real-world images.
+
+Experiment 2 – Synthetic + Real Data
+Adding a small number of real images improved performance on real test data.
+Better balance between safe and unsafe predictions.
+
+Experiment 3 – Synthetic + Real Data with Oversampling
+Oversampling unsafe samples further improved class balance.
+Reduced false negatives at the cost of more false positives.
