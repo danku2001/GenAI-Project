@@ -160,8 +160,8 @@ To better understand how the model behaves on real data, we also show example gr
 - A grid of **real safe** images from the test set  
 - A grid of **real unsafe** images, including cases where the model sometimes makes mistakes  
 
-![Real safe examples](images/real_safe_grid.png)  
-![Real unsafe examples](images/real_unsafe_grid.png)
+![Real safe examples](data/images (9).jpeg)  
+![Real unsafe examples](data/images (1).jpeg)
 
 These examples help visualize the gap between synthetic and real data and show where the model still struggles (for example, crowded scenes or workers that appear very small in the image).
 
