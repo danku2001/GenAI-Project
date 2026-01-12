@@ -150,8 +150,8 @@ To better understand the model behaviour, we include example image grids of synt
 - Grid of safe synthetic scenes (all workers with helmets)  
 - Grid of unsafe synthetic scenes (at least one worker without a helmet)  
 
-![Synthetic safe examples](images/synth_safe_grid.png)  
-![Synthetic unsafe examples](images/synth_unsafe_grid.png)
+![Synthetic safe examples](data/safe_0008.png) 
+![Synthetic unsafe examples](data/unsafe_00010.png)
 
 ### Real Images
 
