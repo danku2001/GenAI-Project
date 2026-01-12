@@ -104,7 +104,7 @@ The main metric is accuracy, and we also report per-class accuracy for `safe` an
 | 1         | ResNet18 | Synthetic only                                    | 31.5%    | 12.5%    | 85.7%      |
 | 2         | ResNet18 | Synth + few real (10 safe, 5 unsafe)              | 63.6%    | 76.7%    | 35.7%      |
 | 3         | ResNet18 | Synth + real (10 safe, 25 unsafe, oversampled)    | 52.3%    | 56.7%    | 42.9%      |
-| 4         | ViT-B/16 | Synth + real (10 safe, 25 unsafe, oversampled)    | XX.X%    | YY.Y%    | ZZ.Z%      |
+| 4         | ViT-B/16 | Synth + real (10 safe, 25 unsafe, oversampled)    | 63.6%    | 73.3%    | 42.9%      |
 
 *(Fill in the ViT numbers after training.)*
 
