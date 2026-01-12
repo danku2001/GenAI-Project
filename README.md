@@ -91,3 +91,21 @@ Overall, the experiments demonstrate that synthetic data is useful for bootstrap
 ---
 
 For dataset access details, see the `data/` directory.
+
+---
+
+## Experiments & Results
+
+We evaluate our models on the real test set (30 safe, 14 unsafe).
+The main metric is accuracy, and we also report per-class accuracy for `safe` and `unsafe`.
+
+| Experiment | Model    | Train data                                  | Real acc | Safe acc | Unsafe acc |
+|-----------|----------|---------------------------------------------|---------:|---------:|-----------:|
+| 1         | ResNet18 | Synthetic only                              | 31.5%    | 12.5%    | 85.7%      |
+| 2         | ResNet18 | Synth + few real (10 safe, 5 unsafe)        | 63.6%    | 76.7%    | 35.7%      |
+| 3         | ResNet18 | Synth + real (10 safe, 25 unsafe, oversampled) | 52.3% | 56.7%    | 42.9%      |
+
+Overall, synthetic-only training performs well on synthetic images but does not generalize to real safe images.
+Adding a small amount of real data and oversampling unsafe examples strongly changes the model's behaviour and
+leads to a more balanced trade-off between safe and unsafe performance.
+
