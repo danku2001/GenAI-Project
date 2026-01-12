@@ -34,7 +34,7 @@ Because there are not many labeled real construction images with helmet annotati
 
 ### Synthetic Data
 
-- ~**1,020 images** generated using a Stable Diffusion–based pipeline  
+- ~**700 images** generated using a Stable Diffusion–based pipeline  
 - Images show construction scenes with workers, with and without helmets  
 - Prompts describe both safe and unsafe situations (e.g., “construction workers wearing yellow helmets” vs. “construction workers without helmets”)  
 - Negative prompts were used to reduce unrealistic artifacts  
