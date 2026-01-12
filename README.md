@@ -106,7 +106,6 @@ The main metric is accuracy, and we also report per-class accuracy for `safe` an
 | 3         | ResNet18 | Synth + real (10 safe, 25 unsafe, oversampled)    | 52.3%    | 56.7%    | 42.9%      |
 | 4         | ViT-B/16 | Synth + real (10 safe, 25 unsafe, oversampled)    | 63.6%    | 73.3%    | 42.9%      |
 
-*(Fill in the ViT numbers after training.)*
 
 Overall, synthetic-only training performs well on synthetic images but does not generalize to real safe images.
 Adding a small amount of real data and oversampling unsafe examples strongly changes the model's behaviour and
