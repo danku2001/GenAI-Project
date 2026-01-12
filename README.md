@@ -144,15 +144,13 @@ Overall, the experiments show that:
 
 To better understand the model behaviour, we include example image grids of synthetic and real data.
 
-> **Note:** Replace the image paths below with the actual files from your repository.
 
 ### Synthetic images
 
 - Grid of safe synthetic scenes (all workers with helmets)  
 - Grid of unsafe synthetic scenes (at least one worker without a helmet)  
 
-```markdown
-![Synthetic safe examples](images/synth_safe_grid.png)
+![Synthetic safe examples](images/synth_safe_grid.png)  
 ![Synthetic unsafe examples](images/synth_unsafe_grid.png)
 
 ### Real Images
@@ -162,15 +160,12 @@ To better understand how the model behaves on real data, we also show example gr
 - A grid of **real safe** images from the test set  
 - A grid of **real unsafe** images, including cases where the model sometimes makes mistakes  
 
-```markdown
 ![Real safe examples](images/real_safe_grid.png)  
 ![Real unsafe examples](images/real_unsafe_grid.png)
-
 
 These examples help visualize the gap between synthetic and real data and show where the model still struggles (for example, crowded scenes or workers that appear very small in the image).
 
 ---
-
 
 ## Discussion and Limitations
 
